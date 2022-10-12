@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table,tr,td{
+ 
+   overflow: auto;
+
+
+}
+table{
+   
+}
+/* tr{
+    width: 200px ;
+
+} */
+
+td{
+    height: 200px;
+}
+.content{
+    width: 50%;
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    
+}
+.author{
+    width: 10%;
+    border: 2px solid  rgb(23, 180, 207);
+    /* color: white; */
+    color: rgb(49, 149, 196);
+    background-color: rgb(23, 180, 207);
+    color: white;
+
+}
+.title{
+    background-color: rgb(230, 152, 116);
+    color: white;
+    width: 40%;
+    border: 2px solid  rgb(230, 152, 116);
+}
